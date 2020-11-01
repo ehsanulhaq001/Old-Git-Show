@@ -4,7 +4,7 @@ import logo from './github.jpg';
 import CardList from '../Components/cardList.js';
 import Scroll from './scroll.js';
 
-let excludeTheseRepos = ["ehsanulhaq001", "start-here-guidelines"];
+let excludeTheseRepos = ["Bounce", "ehsanulhaq001", "start-here-guidelines"];
 class App extends Component{
 
   constructor () {
