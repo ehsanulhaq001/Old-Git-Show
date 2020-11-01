@@ -6,13 +6,13 @@
 }
 
 @media only screen and (max-width: 1400px) {
-    body {
+    .cardsWrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media only screen and (max-width: 960px) {
-    body {
+    .cardsWrapper {
         grid-template-columns: repeat(1, 1fr);
     }
 }
