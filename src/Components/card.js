@@ -11,6 +11,7 @@ function Card(props) {
           backgroundImage: "url(" + imageUrl + ")"
         }}>
       </a>
+      {/* <h3>{repo.owner.login}</h3> */}
     </div>
     
   )

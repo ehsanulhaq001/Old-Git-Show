@@ -1,8 +1,9 @@
 .cardsWrapper {
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    background-color: #334b67;
 }
 
 @media only screen and (max-width: 1400px) {
