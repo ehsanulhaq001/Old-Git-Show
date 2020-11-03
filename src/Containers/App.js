@@ -74,7 +74,7 @@ class App extends Component{
         <header>
           <h1>{"Ehsan Ul Haq Khawja".toUpperCase()}</h1>
           <div style={{"display": "flex"}}>
-            <a href="https://github.com/ehsanulhaq001" target="_blank" rel="noopener noreferrer"><img src={logo} alt=""/></a>
+            {/* <a href="https://github.com/ehsanulhaq001" target="_blank" rel="noopener noreferrer"><img src={logo} alt=""/></a> */}
             <div onClick={this.changeTheme}><img src={themeSwitch} alt=""></img></div>
           </div>
         </header>
