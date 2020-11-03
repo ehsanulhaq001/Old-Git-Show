@@ -1,7 +1,8 @@
 /* :root {
-    --dark: #a9d1ff;
-    --lessDark: #b6cce6;
-    --myTeal: #00ffbf;
+    --solid: #d9ffd9;
+    --highlight: #8cffb9;
+    --faint: #ffffff;
+    --text: #19e6a3;
 } */
 
 * {
@@ -19,6 +20,8 @@
 .bigWrapper {
     background-color: var(--solid);
     height: 100vh;
+    background-size: 10%;
+    background-blend-mode: multiply;
 }
 
 header {
@@ -37,7 +40,7 @@ header img {
     float: right;
     width: 40px;
     height: 40px;
-    filter: invert(48%) sepia(20%) saturate(3207%) hue-rotate(130deg) brightness(100%) contrast(100%);
+    filter: invert(var(--invert)) sepia(20%) saturate(3207%) hue-rotate(130deg) brightness(100%) contrast(100%);
 }
 
 header h1 {
@@ -47,7 +50,7 @@ header h1 {
     font-family: 'SEGA LOGO FONT';
     letter-spacing: 0.2em;
     word-spacing: 0.4em;
-    color: var(--highlight);
+    color: var(--text);
     font-weight: 10;
     font-size: 20px;
 }

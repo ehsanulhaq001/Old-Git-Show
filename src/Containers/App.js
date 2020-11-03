@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './github.jpg';
-import themeSwitch from './themeswitch.png';
+// import logo from '../Images/github.jpg';
+import bg from '../Images/bg.jpg';
+import themeSwitch from '../Images/themeswitch.png';
 import CardList from '../Components/cardList.js';
 import Scroll from './scroll.js';
 import "./SEGA.woff";
@@ -9,14 +10,20 @@ import "./SEGA.woff";
 let excludeTheseRepos = ["Bounce", "ehsanulhaq001", "start-here-guidelines"];
 let preThemes = [
   {
-    "--solid": "#ffda79",
-    "--faint": "#33d9b2",
-    "--highlight": "#ff793f"
+    "--solid": "#b2fbe6",
+    "--highlight": "#8cffb9",
+    "--faint": "#c0f5e7ff",
+    "--text": "#0a1c50",
+    "--invert": "0%",
+    // "background-image": "url(" + bg +")"
     },
     {
     "--solid": "#222f3e",
-    "--lessDark": "#334b67",
-    "--highlight": "#1ac298"
+    "--highlight": "#1ac298",
+    "--faint": "#334b67a0",
+    "--text": "#8cffb9",
+    "--invert": "48%",
+    "background-image": "url(" + bg +")"
   }
 ]
 let i = 1;

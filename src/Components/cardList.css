@@ -4,6 +4,10 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     background-color: var(--faint);
+    background-attachment: fixed;
+    background-size: 10%;
+    background-position: center;
+    background-blend-mode: multiply;
 }
 
 @media only screen and (max-width: 1250px) {
