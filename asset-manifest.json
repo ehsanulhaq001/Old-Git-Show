@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc152a1d.chunk.css",
-    "main.js": "/static/js/main.fc81fee3.chunk.js",
-    "main.js.map": "/static/js/main.fc81fee3.chunk.js.map",
+    "main.css": "/static/css/main.7dfdc1e6.chunk.css",
+    "main.js": "/static/js/main.669530ae.chunk.js",
+    "main.js.map": "/static/js/main.669530ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b41b359e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b41b359e.js.map",
     "static/js/2.881468ca.chunk.js": "/static/js/2.881468ca.chunk.js",
     "static/js/2.881468ca.chunk.js.map": "/static/js/2.881468ca.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dc152a1d.chunk.css.map": "/static/css/main.dc152a1d.chunk.css.map",
+    "static/css/main.7dfdc1e6.chunk.css.map": "/static/css/main.7dfdc1e6.chunk.css.map",
     "static/js/2.881468ca.chunk.js.LICENSE.txt": "/static/js/2.881468ca.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/SEGA.47b4bfa9.woff",
     "static/media/themeswitch.620d11eb.png": "/static/media/themeswitch.620d11eb.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.b41b359e.js",
     "static/js/2.881468ca.chunk.js",
-    "static/css/main.dc152a1d.chunk.css",
-    "static/js/main.fc81fee3.chunk.js"
+    "static/css/main.7dfdc1e6.chunk.css",
+    "static/js/main.669530ae.chunk.js"
   ]
 }
