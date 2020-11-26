@@ -28,7 +28,8 @@ header {
     box-shadow: 0 0 20px #fff;
 }
 
-header img {
+header img,
+svg {
     padding: 20px;
     float: right;
     width: 40px;
